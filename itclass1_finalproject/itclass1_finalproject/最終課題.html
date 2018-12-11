@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>YAMATOWN</title>
+  <script src="js.js"></script>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+  <div class="header"> <!-- ヘッダー -->
+    <div class="YAMATOWN">YAMATOWN</div>
+    <div class="list">
+      <ul>
+        <li><input type="button" value="買い物かご" onclick="kago()" id="kago_button"></li>
+        <li><a href="mailto:t18590hn&#64;sfc.keio.ac.jp">お問い合わせ</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="contents">
+    <!-- メインコンテンツ -->
+    <div class="input_money" id='money'>
+      所持金を入れてね→<input type="text" id="input_money">
+      <input type="button" class="input_money_button" value="登録" onclick="register();" style='display: inline;'>
+    </div>
+    <!--ここから商品-->
+    <!--１段目コンテンツ-->
+    <div class="first">
+      <img src="atamawarui.jpg">
+      <p>頭の悪い人Tシャツ</p>
+      <p>2,000yen</p>
+      <input type="button" class="input_button" value="BUY" onclick="buy1();"　alt="頭の悪ひとが描かれているTシャツ">
+    </div>
+
+    <div class="first">
+      <img src="tubo.jpg">
+      <p>すごい壺</p>
+      <p>150,000yen</p>
+      <input type="button" class="input_button" value="BUY" onclick="buy2();" alt="人が描かれている古代の壺">
+    </div>
+
+    <div class="first">
+      <img src="sio.jpg">
+      <p>盛り塩</p>
+      <p>10yen</p>
+      <input type="button" class="input_button" value="BUY" onclick="buy3();" alt="皿に盛られた塩">
+    </div>
+
+    <div class="first">
+      <img src="mizu.jpg">
+      <p>水素水</p>
+      <p>20,000yen/200mL</p>
+      <input type="button" class="input_button" value="BUY" onclick="buy4();"　alt="ペットボトルに入った水">
+    </div>
+
+    <div class="first">
+      <img src="yaba_T.jpg">
+      <p>ヤバいタンクトップ</p>
+      <p>2,000yen</p>
+      <input type="button" class="input_button" value="BUY" onclick="buy5();" alt="イラストがかかtれたタンクトップ">
+    </div>
+
+    <div class="first">
+      <img src="iPhone.jpg">
+      <p>Diamond Rose iPhone 4 32GB</p>
+      <p>800,000,000yen</p>
+      <input type="button" class="input_button" value="BUY" onclick="buy6();" alt="宝石が散りばめられたデザインのiPhone">
+    </div>
+
+    <div class="first">
+      <img src="Mac_Pro.jpg">
+      <p>高機能ゴミ箱</p>
+      <p>728,800yen</p>
+      <input type="button" class="input_button" value="BUY" onclick="buy7();" alt="MacPro">
+    </div>
+
+    <div class="first">
+      <img src="waraningyo.jpg">
+      <p>丑の刻参りセット</p>
+      <p>7,200yen</p>
+      <input type="button" class="input_button" value="BUY" onclick="buy8();" alt="藁人形">
+    </div>
+
+  </div>
+
+  <div class="footer"> <!-- フッター -->
+    <div class="footer-logo">
+      エンドトゥデイ
+    </div>
+    <div class="footer-list">
+      <ul>
+        <li><a href="https://www.sfc.keio.ac.jp/">企業(学校)情報</a></li>
+        <li><a href="about_this_page.html">このページについて</a></li>
+        <li><a href="https://www.starttoday.jp/recruit/">採用</a></li>
+        <li><a href="mailto:t18590hn&#64;sfc.keio.ac.jp">お問い合わせ</a></li>
+      </ul>
+  </div>
+</body>
+</html>

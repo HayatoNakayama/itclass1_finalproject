@@ -1,0 +1,16 @@
+body {
+  font-family: "Avenir Next";
+}
+h1 {
+  padding-bottom: 40px;
+}
+
+h3 {
+  padding-top: 50px;
+}
+
+.myName {
+  float: right;
+  padding-right: 50px;
+  padding-bottom: 30px;
+}
